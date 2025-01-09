@@ -1,0 +1,15 @@
+package day2.q3;
+
+public class Account {
+    private String name;
+    private int accNo;
+    private double balance;
+
+    public void deposit(double value){
+        balance+=value;
+    }
+
+    public double getBalance() {
+        return balance;
+    }
+}

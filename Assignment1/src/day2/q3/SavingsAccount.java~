@@ -1,0 +1,16 @@
+package day2.q3;
+
+public class SavingsAccount extends Account{
+    private int interest = 5;
+    private double maxWithdrawAmount;
+
+    public double getBalance(){
+        return (double) super.getBalance()*interest/100;
+    }
+
+    public void withdraw(int value){
+        if(value<=maxWithdrawAmount){
+            maxWithdrawAmount-=value;
+        }
+    }
+}
