@@ -1,0 +1,14 @@
+package labExam_Jan13;
+
+import java.io.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+
+public class MerchandiseInventoryTest {
+    public static void main(String[] args) {
+        MerchandiseInventoryApp app = new MerchandiseInventoryApp("C:\\Users\\ashrit.bharadwaj\\Desktop\\ASHRIT\\JavaTraining\\kbr_lab_java_core\\Assignment1\\src\\labExam_Jan13\\input.txt");
+        app.sortByNameAscending();
+        app.sortByPriceDescending();
+    }
+}
