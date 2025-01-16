@@ -1,0 +1,19 @@
+package day7.q1;
+
+public class StaticBlockInitialization {
+    private static StaticBlockInitialization instance = null;
+
+    private StaticBlockInitialization() {
+        System.out.println("Object is created");
+    }
+
+    static {
+        try {
+            instance = new StaticBlockInitialization();
+        } catch (Exception e) {
+            throw new RuntimeException("Exception occurred in creating singleton instance");
+        }
+    }
+
+    
+}
