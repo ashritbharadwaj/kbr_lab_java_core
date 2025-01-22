@@ -1,0 +1,85 @@
+package org.example.dao;
+
+import org.example.dao.dbconnfactory.DBConnFactory;
+import org.example.exceptions.DaoException;
+
+import java.sql.*;
+
+public class CustomerDaoImpl implements CustomerDao {
+    Connection connection = null;
+
+    public CustomerDaoImpl() {
+        connection = DBConnFactory.getConnection();
+        if(connection!=null) System.out.println("connection established");
+    }
+
+    public void addCustomer(Customer customer) {
+        /*
+        String query = "INSERT INTO books (isbn, title, author, price) VALUES (?, ?, ?, ?)";
+        try{
+            PreparedStatement statement = connection.prepareStatement(query,Statement.RETURN_GENERATED_KEYS);
+            statement.setString(1, book.getIsbn());
+            statement.setString(2, book.getTitle());
+            statement.setString(3, book.getAuthor());
+            statement.setDouble(4, book.getPrice());
+            statement.executeUpdate();
+            ResultSet resultSet = statement.getGeneratedKeys();
+            if(resultSet.next()) book.setId(resultSet.getInt(1));
+        }catch (SQLException e) {
+            throw new DaoException("Error adding book",e);
+        }
+        return book;
+         */
+
+        String query = "INSERT INTO customers (name, address, phoneNumber) VALUES (?, ?, ?)";
+        try{
+            PreparedStatement statement = connection.prepareStatement(query, Statement.RETURN_GENERATED_KEYS);
+            statement.setString(1, customer.getName());
+            statement.setString(2, customer.getAddress());
+            statement.setString(3, customer.getPhoneNumber());
+            statement.executeUpdate();
+            ResultSet resultSet = statement.getGeneratedKeys();
+            if(resultSet.next()) customer.setId(resultSet.getInt(1));
+        }catch (SQLException e) {
+            throw new DaoException("Error adding customer",e);
+        }
+    }
+
+    public Customer getCustomerById(int id) {
+        /*
+        String query = "SELECT * FROM books WHERE id = ?";
+        try{
+            PreparedStatement statement = connection.prepareStatement(query);
+            statement.setInt(1, id);
+            ResultSet resultSet = statement.executeQuery();
+            if(resultSet.next()) {
+                String isbn = resultSet.getString("isbn");
+                String title = resultSet.getString("title");
+                String author = resultSet.getString("author");
+                double price = resultSet.getDouble("price");
+                return new Book(id, isbn, title, author, price);
+            }
+        }catch (SQLException e) {
+            throw new DaoException("Error fetching book by id",e);
+        }
+        return null;
+         */
+
+        String query = "SELECT * FROM customers WHERE id = ?";
+        try{
+            PreparedStatement statement = connection.prepareStatement(query);
+            statement.setInt(1, id);
+            ResultSet resultSet = statement.executeQuery();
+            if(resultSet.next()) {
+                int i = resultSet.getInt("id");
+                String name = resultSet.getString("name");
+                String address = resultSet.getString("address");
+                String phoneNumber = resultSet.getString("phoneNumber");
+                return new Customer(i, name, address, phoneNumber);
+            }
+        }catch (SQLException e) {
+            throw new DaoException("Error fetching customer by id",e);
+        }
+        return null;
+    }
+}

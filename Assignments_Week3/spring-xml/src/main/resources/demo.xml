@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+	http://www.springframework.org/schema/beans/spring-beans.xsd
+		http://www.springframework.org/schema/context
+		http://www.springframework.org/schema/context/spring-context-4.3.xsd">
+
+    <!--bean wiring : lazy 1000+
+     autowiring of bean aka shortcut-->
+
+    <!-- Define the BookDao bean -->
+    <bean id="bookDao" class="org.example.dao.BookDaoImp">
+        <!-- Initialize the booksMap and counter -->
+        <property name="booksMap">
+            <map>
+                <entry key="1" value-ref="book1"/>
+                <entry key="2" value-ref="book2"/>
+            </map>
+        </property>
+        <property name="counter" value="2"/>
+    </bean>
+
+    <!--
+     private int id;
+    private String isbn;
+    private String title;
+    private String author;
+    private double price;-->
+
+    <!-- primary vs autowire-candidate="false" -->
+    <bean id="book1" class="org.example.dao.Book">
+        <constructor-arg value="1"/>
+        <constructor-arg value="ABC123"/>
+        <constructor-arg value="Head first Java"/>
+        <constructor-arg value="Katthy"/>
+        <constructor-arg value="600"/>
+    </bean>
+
+    <bean id="book2" class="org.example.dao.Book">
+        <constructor-arg value="2"/>
+        <constructor-arg value="ABC723"/>
+        <constructor-arg value="Servlet jsp Java"/>
+        <constructor-arg value="Katthy"/>
+        <constructor-arg value="700"/>
+    </bean>
+
+    <!-- Define the BookService bean -->
+    <bean id="bookService" class="org.example.service.BookServiceImp">
+        <property name="dao" ref="bookDao"/>
+    </bean>
+</beans>

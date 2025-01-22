@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7ecc5c3d-cb41-4456-9227-92a9133a9bc1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Assignment_day9/JDBC/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment_day9/JDBC/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment_day9/JDBC/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment_day9/JDBC/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment_day9/JDBC/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment_day9/JDBC/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment_day9/JDBC/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment_day9/JDBC/src/main/java/org/example/dao/BookDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment_day9/JDBC/src/main/java/org/example/dao/BookDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment_day9/JDBC/src/main/java/org/example/dao/DaoException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment_day9/JDBC/src/main/java/org/example/dao/dbconnfactory/DBConnFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment_day9/JDBC/src/main/java/org/example/dto/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment_day9/JDBC/src/main/java/org/example/service/DBserver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment_day9/JDBC/src/main/java/org/example/web/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assignment_day9/JDBC/src/main/resources/dbconn.properties" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2rtFuu0nChV6rteV2YNUz1WL0k4" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ashrit.bharadwaj/Desktop/ASHRIT/JavaTraining/kbr_lab_java_core/assignment-9-Java-new-features"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7ecc5c3d-cb41-4456-9227-92a9133a9bc1" name="Changes" comment="" />
+      <created>1737370690178</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737370690178</updated>
+    </task>
+    <servers />
+  </component>
+</project>
