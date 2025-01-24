@@ -1,0 +1,1 @@
+2025-01-24 15:31:34.151 [main] INFO  org.example.service.MethodLogger - Method getAllBooks took 0 ms to execute.

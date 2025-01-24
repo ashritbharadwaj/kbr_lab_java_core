@@ -1,5 +1,7 @@
 package org.example.dao;
 
+import org.springframework.context.annotation.Primary;
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
@@ -7,19 +9,15 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-@Repository
+@Repository(value = "bookRepository")
+@Primary
 public class BookDaoImp implements BookDao {
-    private Map<Integer, Book> booksMap;
-    private int counter=0;
+    private Map<Integer, Book> booksMap = new HashMap<>();
+    private int counter = 0;
 
-    // Setters for DI
-    public void setBooksMap() {
+    public BookDaoImp() {
         booksMap.put(++counter, new Book(counter, "ABC123", "Head first Java", "Katthy", 600));
         booksMap.put(++counter, new Book(counter, "ABC723", "Servlet jsp Java", "Katthy", 700));
-    }
-
-    public void setCounter(int counter) {
-        this.counter = counter;
     }
 
     @Override
