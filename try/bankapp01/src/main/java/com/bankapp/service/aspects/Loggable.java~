@@ -1,0 +1,4 @@
+package com.bankapp.service.aspects;
+
+public @interface Loggable {
+}
