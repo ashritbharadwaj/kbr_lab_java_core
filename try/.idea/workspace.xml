@@ -4,87 +4,166 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d067c6c-ec58-4ec4-93bf-b8c0ff2729a1" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Assignment_day9/JDBC/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment_day9/JDBC/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment_day9/JDBC/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment_day9/JDBC/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment_day9/JDBC/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment_day9/JDBC/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment_day9/JDBC/src/main/java/org/example/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment_day9/JDBC/src/main/java/org/example/dao/BookDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment_day9/JDBC/src/main/java/org/example/dao/BookDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment_day9/JDBC/src/main/java/org/example/dao/DaoException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment_day9/JDBC/src/main/java/org/example/dao/dbconnfactory/DBConnFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment_day9/JDBC/src/main/java/org/example/dto/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment_day9/JDBC/src/main/java/org/example/service/DBserver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment_day9/JDBC/src/main/java/org/example/web/Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Assignment_day9/JDBC/src/main/resources/dbconn.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/BookDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/BookDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/DaoException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dao/dbconnfactory/DBConnFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/dto/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/service/DBserver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/web/Main.java" beforeDir="false" />
+    <list default="true" id="2dd320a2-eab8-4189-9689-d6a679774760" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/.idea/day1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app/.idea/currency_app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app/demo/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app/demo/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app/demo/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app/demo/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app/demo/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app/demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app/demo/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app/demo/src/main/java/com/example/demo/dto/CurrencyConversionBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app/demo/src/main/java/com/example/demo/serviceproxy/CurrentExchangeServiceProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app/demo/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app/demo/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app/exchange/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app/exchange/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app/exchange/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app/exchange/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app/exchange/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app/exchange/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app/exchange/src/main/java/com/example/exchange/ExchangeApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app/exchange/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app/exchange/src/test/java/com/example/exchange/ExchangeApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app1/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app1/.idea/currency_app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app1/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app1/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app1/currency-conversion/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app1/currency-conversion/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app1/currency-conversion/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app1/currency-conversion/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app1/currency-conversion/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app1/currency-conversion/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app1/currency-conversion/src/main/java/com/currencyconversion/CurrencyConversionApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app1/currency-conversion/src/main/java/com/currencyconversion/controller/CurrencyConversionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app1/currency-conversion/src/main/java/com/currencyconversion/dto/CurrencyConversionBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app1/currency-conversion/src/main/java/com/currencyconversion/serviceproxy/CurrencyExchangeServiceProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app1/currency-conversion/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app1/currency-conversion/src/test/java/com/currencyconversion/CurrencyConversionApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app1/currency-exchange/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app1/currency-exchange/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app1/currency-exchange/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app1/currency-exchange/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app1/currency-exchange/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app1/currency-exchange/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app1/currency-exchange/src/main/java/com/currencyexchange/CurrencyExchangeApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app1/currency-exchange/src/main/java/com/currencyexchange/controller/CurrencyExchangeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app1/currency-exchange/src/main/java/com/currencyexchange/repo/ExchangeValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app1/currency-exchange/src/main/java/com/currencyexchange/repo/ExchangeValueRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app1/currency-exchange/src/main/java/com/currencyexchange/service/ExchangeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app1/currency-exchange/src/main/java/com/currencyexchange/service/ExchangeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app1/currency-exchange/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app1/currency-exchange/src/test/java/com/currencyexchange/CurrencyExchangeApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app2/currency-conversion/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app2/currency-conversion/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app2/currency-conversion/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app2/currency-conversion/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app2/currency-conversion/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app2/currency-conversion/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app2/currency-conversion/src/main/java/com/currencyconversion/CurrencyConversionApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app2/currency-conversion/src/main/java/com/currencyconversion/controller/CurrencyConversionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app2/currency-conversion/src/main/java/com/currencyconversion/dto/CurrencyConversionBean.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app2/currency-conversion/src/main/java/com/currencyconversion/serviceproxy/CurrencyExchangeServiceProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app2/currency-conversion/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app2/currency-conversion/src/test/java/com/currencyconversion/CurrencyConversionApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app2/currency-exchange/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app2/currency-exchange/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app2/currency-exchange/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app2/currency-exchange/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app2/currency-exchange/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app2/currency-exchange/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app2/currency-exchange/src/main/java/com/currencyexchange/CurrencyExchangeApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app2/currency-exchange/src/main/java/com/currencyexchange/controller/CurrencyExchangeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app2/currency-exchange/src/main/java/com/currencyexchange/repo/ExchangeValue.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app2/currency-exchange/src/main/java/com/currencyexchange/repo/ExchangeValueRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app2/currency-exchange/src/main/java/com/currencyexchange/service/ExchangeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app2/currency-exchange/src/main/java/com/currencyexchange/service/ExchangeServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app2/currency-exchange/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/currency_app2/currency-exchange/src/test/java/com/currencyexchange/CurrencyExchangeApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/weather_app/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/weather_app/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/weather_app/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/weather_app/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/weather_app/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/weather_app/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/weather_app/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/weather_app/.idea/weather_app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/weather_app/wclient/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/weather_app/wclient/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/weather_app/wclient/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/weather_app/wclient/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/weather_app/wclient/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/weather_app/wclient/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/weather_app/wclient/src/main/java/com/wclient/wclient/WclientApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/weather_app/wclient/src/main/java/com/wclient/wclient/controller/WeatherClientController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/weather_app/wclient/src/main/java/com/wclient/wclient/dto/WeatherInfoDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/weather_app/wclient/src/main/java/com/wclient/wclient/serviceproxy/WeatherServiceProxy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/weather_app/wclient/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/weather_app/wclient/src/test/java/com/wclient/wclient/WclientApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/weather_app/wservice/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/weather_app/wservice/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/weather_app/wservice/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/weather_app/wservice/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/weather_app/wservice/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/weather_app/wservice/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/weather_app/wservice/src/main/java/com/wservice/WserviceApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/weather_app/wservice/src/main/java/com/wservice/controller/WeatherServiceController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/weather_app/wservice/src/main/java/com/wservice/service/WeatherService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/weather_app/wservice/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Assignments_Week4/day1/weather_app/wservice/src/test/java/com/wservice/WserviceApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JUnit5 Test Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 6
 }</component>
-  <component name="ProjectId" id="2rw2Kcx5AbJuVmY6ACbHIGd8ZWP" />
+  <component name="ProjectId" id="2sYpMNDvdVSPXukKnINVQamEegh" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Application.Main.executor": "Run",
-    "JUnit.DBserverTest.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "com.codeium.enabled": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/ashrit.bharadwaj/Desktop/ASHRIT/JavaTraining/kbr_lab_java_core/Assignment_day11_JUnit"
+    "last_opened_file_path": "C:/Users/ashrit.bharadwaj/Desktop/ASHRIT/JavaTraining/kbr_lab_java_core/Assignments_Week4/day1"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\ashrit.bharadwaj\Desktop\ASHRIT\JavaTraining\kbr_lab_java_core\try\src\main\resources" />
-      <recent name="C:\Users\ashrit.bharadwaj\Desktop\ASHRIT\JavaTraining\kbr_lab_java_core\try\src\main\java\org\example" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="org.example.service" />
-    </key>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="3d067c6c-ec58-4ec4-93bf-b8c0ff2729a1" name="Changes" comment="" />
-      <created>1737455755567</created>
+      <changelist id="2dd320a2-eab8-4189-9689-d6a679774760" name="Changes" comment="" />
+      <created>1738642317587</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1737455755567</updated>
+      <updated>1738642317587</updated>
     </task>
     <servers />
   </component>
