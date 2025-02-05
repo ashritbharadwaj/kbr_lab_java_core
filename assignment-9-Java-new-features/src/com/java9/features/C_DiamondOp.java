@@ -15,6 +15,9 @@ class B extends  A{
 }
 public class C_DiamondOp {
     public static void main(String[] args) {
-
+        B b=new B();
+        b.foo();
+        A a=new B();
+        a.foo();
     }
 }
