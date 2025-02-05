@@ -1,18 +1,24 @@
-#spring.application.name=eureka
-
-spring:
-  application:
-    name: eureka
 server:
-  port: 8070
+  port: 8072
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+  application:
+    name: gateway
+
 eureka:
   instance:
-    hostname: localhost
+    prefer-ip-address: true
   client:
-    fetch-registry: false
-    register-with-eureka: false
+    register-with-eureka: true
+    fetch-registry: true
     service-url:
       defaultZone: http://localhost:8070/eureka/
+
 management:
   endpoints:
     web:
@@ -24,6 +30,8 @@ management:
     livenessstate:
       enabled: true
   endpoint:
+    gateway:
+      enabled: true
     health:
       probes:
         enabled: true
@@ -34,4 +42,3 @@ management:
 logging:
   pattern:
     level: "%5p [${spring.application.name:},%X{traceId:-},%X{spanId:-}]"
-
