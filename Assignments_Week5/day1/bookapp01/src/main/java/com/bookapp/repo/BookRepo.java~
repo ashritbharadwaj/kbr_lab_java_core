@@ -1,0 +1,4 @@
+package com.bookapp.repo;
+
+public interface BookRepo {
+}
