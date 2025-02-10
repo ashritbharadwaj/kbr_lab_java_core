@@ -1,0 +1,5 @@
+package com.kafkaapp.dto;
+
+public class Order {
+    
+}
