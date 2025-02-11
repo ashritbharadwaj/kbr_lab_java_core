@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a43236cc-5fdb-4e36-adfc-5cf1e6e6e984" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../bookapp01/.gitattributes" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookapp01/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookapp01/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookapp01/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookapp01/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookapp01/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookapp01/src/main/java/com/bookapp/Bookapp01Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookapp01/src/main/java/com/bookapp/config/JwtAuthFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookapp01/src/main/java/com/bookapp/config/JwtService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookapp01/src/main/java/com/bookapp/config/SecConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookapp01/src/main/java/com/bookapp/config/SecUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookapp01/src/main/java/com/bookapp/controller/AppErrorHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookapp01/src/main/java/com/bookapp/controller/BookController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookapp01/src/main/java/com/bookapp/dto/AuthRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookapp01/src/main/java/com/bookapp/dto/ErrorDto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookapp01/src/main/java/com/bookapp/entities/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookapp01/src/main/java/com/bookapp/entities/ErrorDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookapp01/src/main/java/com/bookapp/entities/UserEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookapp01/src/main/java/com/bookapp/exceptions/BookNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookapp01/src/main/java/com/bookapp/repo/BookRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookapp01/src/main/java/com/bookapp/repo/UserRepo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookapp01/src/main/java/com/bookapp/service/BookService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookapp01/src/main/java/com/bookapp/service/BookServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookapp01/src/main/java/com/bookapp/service/DetailService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookapp01/src/main/java/com/bookapp/service/UserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookapp01/src/main/java/com/bookapp/service/UserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookapp01/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bookapp01/src/test/java/com/bookapp/Bookapp01ApplicationTests.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2sbowpkDqDXMKXbtdXbl6MQDkOL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.CurrencyConversionApplication.executor": "Run",
+    "Application.CurrencyExchangeApplication.executor": "Run",
+    "Application.EurekaApplication.executor": "Run",
+    "Application.GatewayApplication.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.codeium.enabled": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ashrit.bharadwaj/Desktop/ASHRIT/JavaTraining/kbr_lab_java_core/Assignments_Week5/day3/currency_app"
+  }
+}]]></component>
+  <component name="RunManager" selected="Application.CurrencyConversionApplication">
+    <configuration name="CurrencyConversionApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.currencyconversion.CurrencyConversionApplication" />
+      <module name="currency-conversion" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.currencyconversion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CurrencyExchangeApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.currencyexchange.CurrencyExchangeApplication" />
+      <module name="currency-exchange" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.currencyexchange.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.eureka.EurekaApplication" />
+      <module name="nameserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.gateway.GatewayApplication" />
+      <module name="gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CurrencyConversionApplication" />
+        <item itemvalue="Application.CurrencyExchangeApplication" />
+        <item itemvalue="Application.GatewayApplication" />
+        <item itemvalue="Application.EurekaApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a43236cc-5fdb-4e36-adfc-5cf1e6e6e984" name="Changes" comment="" />
+      <created>1738733877221</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738733877221</updated>
+    </task>
+    <servers />
+  </component>
+</project>
