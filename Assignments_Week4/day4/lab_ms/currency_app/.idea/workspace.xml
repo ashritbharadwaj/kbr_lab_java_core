@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a43236cc-5fdb-4e36-adfc-5cf1e6e6e984" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../day3/lab_ms/currency_app/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../day3/lab_ms/currency_app/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,8 +93,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.CurrencyConversionApplication" />
-        <item itemvalue="Application.CurrencyExchangeApplication" />
         <item itemvalue="Application.GatewayApplication" />
+        <item itemvalue="Application.CurrencyExchangeApplication" />
         <item itemvalue="Application.EurekaApplication" />
       </list>
     </recent_temporary>
