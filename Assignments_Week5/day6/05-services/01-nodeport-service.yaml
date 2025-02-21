@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: bookapp-deploy
-  namespace: dev
+  # namespace: dev
   annotations:
     kubernetes.io/change-cause: "deploying v3"
 spec:
