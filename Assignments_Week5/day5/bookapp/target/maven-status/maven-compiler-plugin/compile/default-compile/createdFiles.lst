@@ -1,0 +1,3 @@
+com\bookapp\BookappApplication.class
+com\bookapp\BookController.class
+com\bookapp\InstanceInformationService.class
