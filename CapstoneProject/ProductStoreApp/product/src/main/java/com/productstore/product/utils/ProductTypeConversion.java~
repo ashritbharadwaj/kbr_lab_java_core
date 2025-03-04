@@ -1,0 +1,30 @@
+package com.txn.transaction.utils;
+
+import com.txn.transaction.dto.TransactionDTO;
+import com.txn.transaction.entities.Transaction;
+
+public class TransactionConversion {
+    public static Transaction transactionDtoToTransaction(TransactionDTO transactionDTO) {
+        Transaction transaction = new Transaction();
+        transaction.setTransactionId(transactionDTO.getTransactionId());
+        transaction.setStoreId(transactionDTO.getStoreId());
+        transaction.setAmount(transactionDTO.getAmount());
+        transaction.setCurrency(transactionDTO.getCurrency());
+        transaction.setTransactionType(transactionDTO.getTransactionType());
+        transaction.setTimestamp(transactionDTO.getTimestamp());
+        transaction.setDescription(transactionDTO.getDescription());
+        return transaction;
+    }
+
+    public static TransactionDTO transactionToTransactionDto(Transaction transaction) {
+        TransactionDTO transactionDTO = new TransactionDTO();
+        transactionDTO.setTransactionId(transaction.getTransactionId());
+        transactionDTO.setStoreId(transaction.getStoreId());
+        transactionDTO.setAmount(transaction.getAmount());
+        transactionDTO.setCurrency(transaction.getCurrency());
+        transactionDTO.setTransactionType(transaction.getTransactionType());
+        transactionDTO.setTimestamp(transaction.getTimestamp());
+        transactionDTO.setDescription(transaction.getDescription());
+        return transactionDTO;
+    }
+}

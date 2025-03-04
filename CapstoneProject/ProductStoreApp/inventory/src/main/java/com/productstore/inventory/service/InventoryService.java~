@@ -1,0 +1,4 @@
+package com.productstore.inventory.service;
+
+public interface InventoryService {
+}

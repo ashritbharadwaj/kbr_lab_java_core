@@ -1,0 +1,25 @@
+package com.productstore.inventory.dto;
+
+import jakarta.validation.constraints.NotEmpty;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class InventoryDto {
+
+    private Long id;
+
+    @NotEmpty(message = "Code number is required")
+    private String codeNumber;
+
+    @NotEmpty(message = "Quantity is required")
+    private Integer quantity;
+
+    public InventoryDto(String codeNumber, Integer quantity) {
+        this.codeNumber = codeNumber;
+        this.quantity = quantity;
+    }
+}
