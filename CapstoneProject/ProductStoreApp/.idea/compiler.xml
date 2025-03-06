@@ -9,8 +9,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="nameserver" />
         <module name="product" />
+        <module name="gateway" />
+        <module name="order" />
       </profile>
-      <profile name="Annotation profile for inventory" enabled="true">
+      <profile name="Annotation profile for order" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -23,8 +25,10 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="gateway" options="-parameters" />
       <module name="inventory" options="-parameters" />
       <module name="nameserver" options="-parameters" />
+      <module name="order" options="-parameters" />
       <module name="product" options="-parameters" />
     </option>
   </component>

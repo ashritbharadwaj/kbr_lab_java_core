@@ -14,15 +14,15 @@ public class InventoryDto {
 
     private Long id;
 
-    @NotEmpty(message = "Code number is required")
-    private String codeNumber;
+    @NotNull(message = "Product ID is required")
+    private Long productId;
 
     @NotNull(message = "Quantity is required")
-    @Range(min = 1, max = 1000, message = "Quantity must be between 1 and 1000")
+    @Range(min = 0, max = 1000, message = "Quantity must be between 0 and 1000")
     private Integer quantity;
 
-    public InventoryDto(String codeNumber, Integer quantity) {
-        this.codeNumber = codeNumber;
+    public InventoryDto(Long productId, Integer quantity) {
+        this.productId = productId;
         this.quantity = quantity;
     }
 }

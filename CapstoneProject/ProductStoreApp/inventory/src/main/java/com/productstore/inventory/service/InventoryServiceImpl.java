@@ -22,6 +22,12 @@ public class InventoryServiceImpl implements InventoryService {
 
     @Override
     public InventoryDto addInventory(InventoryDto inventoryDto) {
+        Inventory existingInventory = inventoryRepository.findByProductId(inventoryDto.getProductId());
+        if (existingInventory != null) {
+            existingInventory.setQuantity(existingInventory.getQuantity() + inventoryDto.getQuantity());
+            inventoryRepository.save(existingInventory);
+            return InventoryConversion.inventoryToInventoryDto(existingInventory);
+        }
         Inventory inventory = InventoryConversion.inventoryDtoToInventory(inventoryDto);
         inventoryRepository.save(inventory);
         return InventoryConversion.inventoryToInventoryDto(inventory);
@@ -31,7 +37,7 @@ public class InventoryServiceImpl implements InventoryService {
     public InventoryDto updateInventory(Long inventoryId, InventoryDto inventoryDto) {
         Inventory inventory = inventoryRepository.findById(inventoryId).orElseThrow(() -> new InventoryNotFoundException("Inventory not found with id: " + inventoryId));
 
-        inventory.setCodeNumber(inventoryDto.getCodeNumber());
+        inventory.setProductId(inventoryDto.getProductId());
         inventory.setQuantity(inventoryDto.getQuantity());
         inventoryRepository.save(inventory);
 
@@ -40,7 +46,8 @@ public class InventoryServiceImpl implements InventoryService {
 
     @Override
     public void deleteInventoryById(Long inventoryId) {
-        inventoryRepository.deleteById(inventoryId);
+//        inventoryRepository.deleteById(inventoryId);
+        inventoryRepository.delete(inventoryRepository.findById(inventoryId).orElseThrow(() -> new InventoryNotFoundException("Inventory not found with id: " + inventoryId)));
     }
 
     @Override
@@ -53,5 +60,14 @@ public class InventoryServiceImpl implements InventoryService {
     public List<InventoryDto> getAllInventories() {
         List<Inventory> inventories = inventoryRepository.findAll();
         return inventories.stream().map(InventoryConversion::inventoryToInventoryDto).toList();
+    }
+
+    @Override
+    public InventoryDto getInventoryByProductId(Long productId) {
+        Inventory inventory = inventoryRepository.findByProductId(productId);
+        if (inventory == null) {
+            throw new InventoryNotFoundException("Inventory not found with product id: " + productId);
+        }
+        return InventoryConversion.inventoryToInventoryDto(inventory);
     }
 }

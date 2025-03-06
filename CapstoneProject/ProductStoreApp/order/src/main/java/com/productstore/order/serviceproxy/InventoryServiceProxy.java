@@ -1,0 +1,19 @@
+package com.productstore.order.serviceproxy;
+
+import com.productstore.order.dto.InventoryDto;
+import jakarta.validation.Valid;
+import org.springframework.cloud.openfeign.FeignClient;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+
+@FeignClient(name="inventory", url="http://localhost:8085/api/inventories")
+public interface InventoryServiceProxy {
+    @GetMapping("/productid={productId}")
+    public ResponseEntity<InventoryDto> getInventoryByProductId(@PathVariable Long productId);
+
+    @PutMapping("/{inventoryId}")
+    public ResponseEntity<InventoryDto> updateInventory(@PathVariable Long inventoryId, @RequestBody @Valid InventoryDto inventoryDto);
+}

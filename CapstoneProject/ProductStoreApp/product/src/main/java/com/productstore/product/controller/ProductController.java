@@ -19,36 +19,6 @@ public class ProductController {
         this.productService = productService;
     }
 
-//    @GetMapping("/{transactionId}")
-//    public ResponseEntity<TransactionDTO> getTransaction(@PathVariable Long transactionId) {
-//        TransactionDTO transaction = transactionService.getTransactionById(transactionId);
-//        return ResponseEntity.ok(transaction);
-//    }
-//
-//    @GetMapping("")
-//    public ResponseEntity<List<TransactionDTO>> getAllTransactions() {
-//        List<TransactionDTO> transactions = transactionService.getAllTransactions();
-//        return ResponseEntity.ok(transactions);
-//    }
-//
-//    @DeleteMapping("/{transactionId}")
-//    public ResponseEntity<Void> deleteTransaction(@PathVariable Long transactionId) {
-//        transactionService.deleteTransactionById(transactionId);
-//        return ResponseEntity.noContent().build();
-//    }
-//
-//    @PostMapping("")
-//    public ResponseEntity<TransactionDTO> addTransaction(@RequestBody @Valid TransactionDTO transaction) {
-//        TransactionDTO addedTransaction = transactionService.addTransaction(transaction);
-//        return ResponseEntity.created(null).body(addedTransaction);
-//    }
-//
-//    @PutMapping("/{transactionId}")
-//    public ResponseEntity<TransactionDTO> updateTransaction(@PathVariable Long transactionId, @RequestBody @Valid TransactionDTO transaction) {
-//        TransactionDTO updatedTransaction = transactionService.updateTransaction(transactionId,transaction);
-//        return ResponseEntity.accepted().body(updatedTransaction);
-//    }
-
     @GetMapping("/{productId}")
     public ResponseEntity<ProductDto> getProduct(@PathVariable Long productId) {
         ProductDto product = productService.getProductById(productId);

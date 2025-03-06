@@ -19,8 +19,8 @@ public class InventoryApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		inventoryRepository.save(new Inventory("code1", 1));
-		inventoryRepository.save(new Inventory("code2", 2));
-		inventoryRepository.save(new Inventory("code3", 3));
+		inventoryRepository.save(new Inventory(1L, 1));
+		inventoryRepository.save(new Inventory(2L, 2));
+		inventoryRepository.save(new Inventory(3L, 3));
 	}
 }

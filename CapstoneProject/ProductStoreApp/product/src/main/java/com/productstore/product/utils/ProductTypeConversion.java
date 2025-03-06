@@ -10,7 +10,7 @@ public class ProductTypeConversion {
     public static Product productDtoToProduct(ProductDto productDto) {
         Product product = new Product();
         product.setProductId(productDto.getProductId());
-        product.setCodeNumber(productDto.getCodeNumber());
+//        product.setCodeNumber(productDto.getCodeNumber());
         product.setName(productDto.getName());
         product.setPrice(productDto.getPrice());
         product.setCategory(productDto.getCategory());
@@ -21,7 +21,7 @@ public class ProductTypeConversion {
     public static ProductDto productToProductDto(Product product) {
         ProductDto productDto = new ProductDto();
         productDto.setProductId(product.getProductId());
-        productDto.setCodeNumber(product.getCodeNumber());
+//        productDto.setCodeNumber(product.getCodeNumber());
         productDto.setName(product.getName());
         productDto.setPrice(product.getPrice());
         productDto.setCategory(product.getCategory());

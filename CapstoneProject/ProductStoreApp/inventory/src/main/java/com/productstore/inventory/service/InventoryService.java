@@ -14,4 +14,6 @@ public interface InventoryService {
     public InventoryDto getInventoryById(Long inventoryId);
 
     public List<InventoryDto> getAllInventories();
+
+    InventoryDto getInventoryByProductId(Long productId);
 }

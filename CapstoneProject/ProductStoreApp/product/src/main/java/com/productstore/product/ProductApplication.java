@@ -19,8 +19,8 @@ public class ProductApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		productRepository.save(new Product("code1", "name1", 1.0, "category1", "description1"));
-		productRepository.save(new Product("code2", "name2", 2.0, "category2", "description2"));
-		productRepository.save(new Product("code3", "name3", 3.0, "category3", "description3"));
+		productRepository.save(new Product( "name1", 1.0, "category1", "description1"));
+		productRepository.save(new Product( "name2", 2.0, "category2", "description2"));
+		productRepository.save(new Product( "name3", 3.0, "category3", "description3"));
 	}
 }

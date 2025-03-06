@@ -50,5 +50,11 @@ public class InventoryController {
         return ResponseEntity.ok(updatedInventory);
     }
 
+    @GetMapping("/productid={productId}")
+    public ResponseEntity<InventoryDto> getInventoryByProductId(@PathVariable Long productId) {
+        InventoryDto inventoryDto = inventoryService.getInventoryByProductId(productId);
+        return ResponseEntity.ok(inventoryDto);
+    }
+
     //other endpoints
 }
